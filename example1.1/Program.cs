@@ -1,6 +1,6 @@
-﻿  string[] arraytocheck = { "a", "32", "435", "912123", "ok" };
-  Console.WriteLine("Дано: " + String.Join(",", arraytocheck));
+﻿  string[] arrayToCheck = { "a", "32", "435", "912123", "ok" };
+  Console.WriteLine("Дано: " + String.Join(",", arrayToCheck));
   
-  arraytocheck = arraytocheck.Where(element => element.Length <= 3).ToArray();
-  Console.WriteLine("Выдано: " + String.Join(",", arraytocheck));
+  arrayToCheck = arrayToCheck.Where(element => element.Length <= 3).ToArray();
+  Console.WriteLine("Выдано: " + String.Join(",", arrayToCheck));
  
